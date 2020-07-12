@@ -1,7 +1,7 @@
 import { FunctionalComponent, h } from "vue";
 
 const FunctionComp: FunctionalComponent = (
-  props: { active: boolean },
+  props: { active: boolean } /* Doesn't work */,
   { slots }
 ) => {
   const { active } = props;
